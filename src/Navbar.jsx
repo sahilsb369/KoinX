@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "./assets/logo.svg";
-import NavabrLogo from "./assets/Navbar.svg"
+import nav from "./assets/navLogo.svg"
 const Navbar = () => {
   return (
     <nav className='bg-white  w-full border-b border-gray-200 '>
@@ -43,7 +43,7 @@ const Navbar = () => {
           </li>
         </ul>
         
-        <img src={NavabrLogo} alt="ogo" className="md:hidden block" />
+        <img src={nav} alt="ogo" className="md:hidden block" />
 
 
 
