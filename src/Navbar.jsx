@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "./assets/logo.svg";
+import NavabrLogo from "./assets/Navbar.svg"
 const Navbar = () => {
   return (
     <nav className='bg-white  w-full border-b border-gray-200 '>
@@ -41,12 +42,11 @@ const Navbar = () => {
             </a>
           </li>
         </ul>
-        {/* <div className='flex items-center space-x-4 p-1 bg-white rounded-lg shadow-md border border-gray-300'>
-          <div className='p-2 bg-blue-400 rounded-full text-white text-center'>
-            SB
-          </div>
-          <span className='text-black font-bold'>Sahil</span>
-        </div> */}
+        
+        <img src={NavabrLogo} alt="ogo" className="md:hidden block" />
+
+
+
       </div>
     </nav>
   );
